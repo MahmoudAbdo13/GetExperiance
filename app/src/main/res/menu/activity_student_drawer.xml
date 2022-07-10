@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_student_new_opportunities"
+            android:icon="@drawable/opportunity"
+            android:title="@string/new_opportunities" />
+        <item
+            android:id="@+id/nav_student_new_courses"
+            android:icon="@drawable/courses"
+            android:title="@string/new_courses" />
+        <item
+            android:id="@+id/nav_student_request_state"
+            android:icon="@drawable/request"
+            android:title="@string/requests_state"/>
+        <item
+            android:id="@+id/nav_student_opportunities"
+            android:icon="@drawable/myopportuint"
+            android:title="@string/my_opportunities" />
+
+        <item
+            android:id="@+id/nav_student_courses"
+            android:icon="@drawable/myopportunity"
+            android:title="@string/my_courses" />
+
+        <item
+            android:id="@+id/nav_download_certificate"
+            android:icon="@drawable/download"
+            android:title="@string/download_certificate" />
+
+        <item
+            android:id="@+id/nav_logout_student"
+            android:icon="@drawable/exit_from_app"
+            android:title="@string/logout" />
+    </group>
+</menu>

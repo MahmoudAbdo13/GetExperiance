@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_foundation_management"
+            android:icon="@drawable/ic_organisation"
+            android:title="@string/foundation_management" />
+
+        <item
+            android:id="@+id/nav_field_management"
+            android:icon="@drawable/about_us_icon"
+            android:title="@string/fields_management" />
+
+       <item
+            android:id="@+id/nav_blocked_foundation_management"
+            android:icon="@drawable/blocked"
+            android:title="@string/blocked_foundation_management" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:iconTint="#385831"
+            android:title="@string/logout" />
+    </group>
+</menu>

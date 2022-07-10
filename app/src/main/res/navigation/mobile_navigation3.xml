@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation3"
+    app:startDestination="@+id/nav_student_new_opportunities">
+
+    <fragment
+        android:id="@+id/nav_student_new_opportunities"
+        android:name="com.example.getexperience.Student.StudentNewOpportunitiesFragment"
+        android:label="@string/new_opportunities"
+        tools:layout="@layout/fragment_student_new_opportunities" />
+<fragment
+        android:id="@+id/nav_student_new_courses"
+        android:name="com.example.getexperience.Student.StudentNewCoursesFragment"
+        android:label="@string/new_courses"
+        tools:layout="@layout/fragment_student_new_courses" />
+
+    <fragment
+        android:id="@+id/nav_student_opportunities"
+        android:name="com.example.getexperience.Student.MyOpportunitiesFragment"
+        android:label="@string/my_opportunities"
+        tools:layout="@layout/fragment_my_opportunities" />
+ <fragment
+        android:id="@+id/nav_student_request_state"
+        android:name="com.example.getexperience.Student.StudentRequestStateFragment"
+        android:label="@string/requests_state"
+        tools:layout="@layout/fragment_student_request_state" />
+
+    <fragment
+        android:id="@+id/nav_student_courses"
+        android:name="com.example.getexperience.Student.MyCoursesFragment"
+        android:label="@string/my_courses"
+        tools:layout="@layout/fragment_my_courses" />
+
+    <fragment
+        android:id="@+id/nav_download_certificate"
+        android:name="com.example.getexperience.Student.DownloadCertificateFragment"
+        android:label="@string/download_certificate"
+        tools:layout="@layout/fragment_download_certificate" />
+
+    <activity
+        android:id="@+id/nav_logout_student"
+        android:name="com.example.getexperience.OuterPages.LoginActivity"
+        android:label="Login Activity"
+        tools:layout="@layout/activity_login" />
+
+</navigation>

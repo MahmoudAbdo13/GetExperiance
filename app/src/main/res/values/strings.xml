@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Get Experiance</string>
+    <string name="app_details">Experience can be defined as the knowledge or skill that an individual acquires through performing a task, living a moment, or feeling it. So, it is the moment or situation that happen to the individual that affects how he feels.
+University is a good place to learn a lot of theory material and get the fundamental view of remove the major. However, there is a gap between what we learn on the university and the business world and a lot of soft skills such as communication, time management, and team work are partially missing. so, students need to get this experience from a true job opportunity in real business world.
+The proposed system, “Get Experience” , can solve this problem by connecting the organizations with the students by giving the organizations the ability to post an opportunity to work as a part time  or internship and let the students  for  the job to get the experience that  he\she hopes. In addition, the students will be granted an experience certificates .
+This application will enable the students to have an idea of the business environment, and how to link between the theoretical part that they learn and the practical part. Additionally, students will be able to focus more on the material needed for the business environment, as a result students will achieve the maximum benefits from the material.
+</string>
+    <string name="title_activity_admin">AdminActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_ho">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="foundation_management">Organizations Management</string>
+    <string name="blocked_foundation_management">Blocked Organizations</string>
+    <string name="fields_management">Fields Management</string>
+    <string name="logout">Logout</string>
+    <string name="title_activity_foundation">OrganizationsActivity</string>
+    <string name="opportunities_management">Opportunities Management</string>
+    <string name="opportunity_requests">Opportunity Requests</string>
+    <string name="subscription_management">Courses Requests</string>
+    <string name="courses_management">Courses Management</string>
+    <string name="upload_certificate">Upload Certificate</string>
+    <string name="download_certificate">Download Certificate</string>
+    <string name="title_activity_sutdent">StudentActivity</string>
+    <string name="new_opportunities">New Opportunities</string>
+    <string name="opportunity_details">Opportunities Details</string>
+    <string name="new_courses">New Courses</string>
+    <string name="course_details">Course Details</string>
+    <string name="requests_state">Requests State</string>
+    <string name="my_opportunities">My Opportunities</string>
+    <string name="my_courses">My Courses</string>
+
+
+</resources>

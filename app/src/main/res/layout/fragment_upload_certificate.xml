@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/upload_certificate_subscription_image"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/logo"
+        app:civ_border_color="@color/purple_200"
+        app:civ_border_width="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/upload_certificate_subscription_number"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/input_design"
+        android:hint="Student Number"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textColor="@color/purple_500"
+        android:textColorHint="@color/gray"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/upload_certificate_subscription_image"
+
+        />
+
+    <EditText
+        android:id="@+id/upload_certificate_subscription_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/input_design"
+        android:hint="Certificate Course/Opportunity Name"
+        android:inputType="textAutoCorrect|textAutoComplete"
+        android:padding="10dp"
+        android:textColor="@color/purple_500"
+        android:textColorHint="@color/gray"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/upload_certificate_subscription_number"
+
+        />
+
+    <EditText
+        android:id="@+id/upload_certificate_select_file"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/input_design"
+        android:hint="certificate Select File"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColor="@color/purple_500"
+        android:textColorHint="@color/gray"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        app:layout_constraintTop_toBottomOf="@id/upload_certificate_subscription_name" />
+
+    <Button
+        android:id="@+id/upload_certificate_course_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/buttons"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="Course"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toStartOf="@id/upload_certificate_opportunity_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/upload_certificate_select_file" />
+
+    <Button
+        android:id="@+id/upload_certificate_opportunity_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="12dp"
+        app:backgroundTint="@null"
+        android:background="@drawable/btn_outline"
+        android:clickable="true"
+        android:text="Opportunity"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/upload_certificate_course_btn"
+        app:layout_constraintTop_toBottomOf="@id/upload_certificate_select_file"
+        android:focusable="true" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

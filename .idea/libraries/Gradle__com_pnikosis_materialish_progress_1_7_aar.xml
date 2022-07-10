@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.pnikosis:materialish-progress:1.7@aar">
+    <CLASSES>
+      <root url="jar://D:/AndroidSdk/Sdk/caches/transforms-3/6f9f55359477a1826af147e8b89436a4/transformed/jetified-materialish-progress-1.7/jars/classes.jar!/" />
+      <root url="file://D:/AndroidSdk/Sdk/caches/transforms-3/6f9f55359477a1826af147e8b89436a4/transformed/jetified-materialish-progress-1.7/res" />
+      <root url="file://D:/AndroidSdk/Sdk/caches/transforms-3/6f9f55359477a1826af147e8b89436a4/transformed/jetified-materialish-progress-1.7/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/AndroidSdk/Sdk/caches/modules-2/files-2.1/com.pnikosis/materialish-progress/1.7/335976ecb055994235a9df5f23b5eda9038c8672/materialish-progress-1.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

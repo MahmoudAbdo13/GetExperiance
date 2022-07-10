@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "206720125047",
+    "firebase_url": "https://get-experience-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "get-experience",
+    "storage_bucket": "get-experience.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206720125047:android:d7a0d1f5e337e481201e72",
+        "android_client_info": {
+          "package_name": "com.example.getexperience"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "206720125047-fml2ii4hke3sb3g86m4j5dnbgtrd13oq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkvMT28us9WkYZxZTbsccy2tUrtfLAw8U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "206720125047-fml2ii4hke3sb3g86m4j5dnbgtrd13oq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

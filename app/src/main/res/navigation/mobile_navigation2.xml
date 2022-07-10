@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@+id/nav_opportunities_management">
+
+    <fragment
+        android:id="@+id/nav_opportunities_management"
+        android:name="com.example.getexperience.Foundation.OpportunityManagementFragment"
+        android:label="@string/opportunities_management"
+        tools:layout="@layout/fragment_opportunities_management" />
+
+    <fragment
+        android:id="@+id/nav_opportunity_requests"
+        android:name="com.example.getexperience.Foundation.RequestsManagementFragment"
+        android:label="@string/opportunity_requests"
+        tools:layout="@layout/fragment_requests_management" />
+
+    <fragment
+        android:id="@+id/nav_courses_requests"
+        android:name="com.example.getexperience.Foundation.SubscriptionsManagementFragment"
+        android:label="@string/subscription_management"
+        tools:layout="@layout/fragment_subscriptions_management" />
+
+    <fragment
+        android:id="@+id/nav_courses_management"
+        android:name="com.example.getexperience.Foundation.CoursesManagementFragment"
+        android:label="@string/courses_management"
+        tools:layout="@layout/fragment_courses_management" />
+
+    <fragment
+        android:id="@+id/nav_upload_certificate"
+        android:name="com.example.getexperience.Foundation.UploadCertificateFragment"
+        android:label="@string/upload_certificate"
+        tools:layout="@layout/fragment_upload_certificate" />
+
+<!--
+    <fragment
+        android:id="@+id/nav_logout_found"
+        android:name="com.example.getexperience.Foundation.FoundationRegisterFragment"
+        android:label="@string/upload_certificate"
+        tools:layout="@layout/fragment_foundation_register" />
+-->
+
+    <activity
+        android:id="@+id/nav_logout_foundation"
+        android:name="com.example.getexperience.OuterPages.LoginActivity"
+        android:label="Login Activity"
+        tools:layout="@layout/activity_login" />
+
+</navigation>

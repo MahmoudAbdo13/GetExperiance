@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_foundation_management">
+
+    <fragment
+        android:id="@+id/nav_foundation_management"
+        android:name="com.example.getexperience.Manager.ui.FoundationManagementFragment"
+        android:label="@string/foundation_management"
+        tools:layout="@layout/fragment_foundation_management" />
+
+    <fragment
+        android:id="@+id/nav_field_management"
+        android:name="com.example.getexperience.Manager.ui.FieldsManagementFragment"
+        android:label="@string/fields_management"
+        tools:layout="@layout/fragment_field_management" />
+
+    <fragment
+        android:id="@+id/foundation_details"
+        android:name="com.example.getexperience.Manager.ui.ManagerFoundationDetailsFragment"
+        android:label="Foundation Details"
+        tools:layout="@layout/fragment_manager_foundation_details" />
+
+    <fragment
+        android:id="@+id/nav_blocked_foundation_management"
+        android:name="com.example.getexperience.Manager.ui.ManagerFoundationDetailsFragment"
+        android:label="Foundation Details"
+        tools:layout="@layout/fragment_manager_foundation_details" />
+
+    <activity
+        android:id="@+id/nav_logout"
+        android:name="com.example.getexperience.OuterPages.LoginActivity"
+        android:label="Login Activity"
+        tools:layout="@layout/activity_login" />
+
+
+</navigation>

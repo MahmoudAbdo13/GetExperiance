@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/contact_us"
+        android:title="Contact Us"
+        android:icon="@drawable/ic_contact_us"
+        app:iconTint="@color/purple_700"
+        app:showAsAction="withText"
+        />
+
+    <item
+        android:id="@+id/about_us"
+        android:title="About App"
+        android:icon="@drawable/about_us_icon"
+        app:showAsAction="never"
+        android:gravity="end"
+        android:layout_gravity="end"
+        />
+</menu>

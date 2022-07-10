@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layoutDirection="ltr">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_opportunity_certificates"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius="15dp"
+            app:cardPreventCornerOverlap="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/home_gradient_maths"
+                android:minHeight="100dp"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/opportunityImageCertificates"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="32dp"
+                    android:adjustViewBounds="true"
+                    android:cropToPadding="true"
+                    android:maxHeight="50dp"
+                    android:src="@drawable/myopportuint" />
+
+
+                <TextView
+                    android:id="@+id/textViewSub1TitleCertificates"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="44dp"
+                    android:layout_marginEnd="22dp"
+                    android:layout_toEndOf="@+id/opportunityImageCertificates"
+                    android:gravity="start"
+                    android:text="Opportunity Certificates"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_course_certificates"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="44dp"
+            app:cardCornerRadius="15dp"
+            app:cardPreventCornerOverlap="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/home_gradient_maths"
+                android:minHeight="100dp"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/courseImageCertificates"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="32dp"
+                    android:adjustViewBounds="true"
+                    android:cropToPadding="true"
+                    android:maxHeight="50dp"
+                    android:src="@drawable/myopportunity" />
+
+
+                <TextView
+                    android:id="@+id/textViewSub2Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="44dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_toEndOf="@+id/courseImageCertificates"
+                    android:gravity="center"
+                    android:text="Course Certificates"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

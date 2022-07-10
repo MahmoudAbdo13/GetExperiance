@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_opportunities_management"
+            android:icon="@drawable/opportunity"
+            android:title="@string/opportunities_management" />
+
+        <item
+            android:id="@+id/nav_opportunity_requests"
+            android:icon="@drawable/request"
+            android:title="@string/opportunity_requests" />
+
+        <item
+            android:id="@+id/nav_courses_management"
+            android:icon="@drawable/courses"
+            android:title="@string/courses_management"/>
+
+        <item
+            android:id="@+id/nav_courses_requests"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/subscription_management"
+            />
+
+        <item
+            android:id="@+id/nav_upload_certificate"
+            android:icon="@drawable/cloud_upload"
+            android:title="@string/upload_certificate" />
+
+        <item
+            android:id="@+id/nav_logout_foundation"
+            android:icon="@drawable/exit_from_app"
+            android:title="@string/logout" />
+
+    </group>
+</menu>
